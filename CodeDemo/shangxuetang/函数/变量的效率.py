@@ -1,0 +1,26 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time : 2019/9/20 9:54
+
+# 测试局部变量，全局变量的效率
+
+import math
+import time
+
+def test01():
+    start = time.time()
+    for i in range(10000000):
+        math.sqrt(30)
+    end = time.time()
+    print("耗时为：{0}".format(end-start))
+
+def test02():
+    b = math.sqrt
+    start = time.time()
+    for i in range(10000000):
+        b(30)
+    end = time.time()
+    print("耗时为：{0}".format(end-start))
+
+test01()
+test02()
