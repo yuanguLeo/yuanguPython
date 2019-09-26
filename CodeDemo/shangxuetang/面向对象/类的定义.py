@@ -17,12 +17,16 @@ class 类名：
 
 class Student():
 
-    def __init__(self,name,score):
+    count = 0  # 类属性
+
+    def __init__(self,name,score):  # 实例属性
         self.name = name
         self.score = score
+        Student.count += 1
 
-    def test_01(self):
+    def test_01(self):  # 实例方法
         print("{0}的成绩为：{1}分".format(self.name,self.score))
 
-s1 = Student("元古",80)
+s1 = Student("元古",80)  # s1是实例对象，自动调用__init__()方法
 s1.test_01()
+print("一共创建{0}个Student对象".format(Student.count))
