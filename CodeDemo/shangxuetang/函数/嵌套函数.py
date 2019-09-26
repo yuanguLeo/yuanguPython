@@ -27,3 +27,5 @@ def printName(isChinese,name,familyName):
 
 printName(True,"尚","高")
 printName(False,"Ivanka","trump")
+
+
