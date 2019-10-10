@@ -29,4 +29,5 @@ s = Student("元古",18,80)
 s.say_age()
 #print(s.age)
 print(dir(s))
+print(Student.mro())  # mro方法，查看继承关系
 print(s._Person__age)  # 子类调用父类的私有属性
