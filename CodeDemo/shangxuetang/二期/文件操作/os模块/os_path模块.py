@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*-
 # @Time : 2019/11/14 16:35
 
+import os
+import os.path
+
 '''
 os.path模块
 isabs(path)判断path是否绝对路径
@@ -19,3 +22,14 @@ split(path)对路径进行分割，以列表形式返回
 splirext(path)从路径中分割文件的扩展名
 
 '''
+print(os.path.isabs("aa.txt"))
+print(os.path.isdir("aa.txt"))
+print(os.path.isfile("aa.txt"))
+print(os.path.exists("aa.txt"))
+print(os.path.abspath("aa.txt"))
+print(os.path.getsize("aa.txt"))
+print(os.path.dirname("d://aa.txt"))
+#分割
+path = os.path.abspath("aa.txt")
+print(os.path.split(path))
+print(os.path.splitext(path))
