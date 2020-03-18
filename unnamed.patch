@@ -1,0 +1,117 @@
+Index: CodeDemo/Together  Navigating/第2章/name_cases.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- CodeDemo/Together  Navigating/第2章/name_cases.py	(date 1584440597827)
++++ CodeDemo/Together  Navigating/第2章/name_cases.py	(date 1584440597827)
+@@ -0,0 +1,27 @@
++#!/usr/bin/env python
++# -*- coding: utf-8 -*-
++# @Time : 2020/3/17 16:10
++
++'''
++2-3需求：将用户姓名存到变量中，向用户显示一条消息
++'''
++
++a = "Eric"
++print("Hello {0},would you like to learn some Python today?".format(a))
++
++'''
++2-4需求：将名称分别用小写，大写，首字母大写打印
++'''
++
++#小写显示
++print(a.lower())
++
++#大写显示
++print(a.upper())
++
++#首字母大写
++print(a.title())
++
++
++
++
+Index: CodeDemo/Together  Navigating/第2章/message2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- CodeDemo/Together  Navigating/第2章/message2.py	(date 1584433389905)
++++ CodeDemo/Together  Navigating/第2章/message2.py	(date 1584433389905)
+@@ -0,0 +1,13 @@
++#!/usr/bin/env python
++# -*- coding: utf-8 -*-
++# @Time : 2020/3/17 16:05
++
++'''
++2-2需求：将一条消息存储到变量中打印，修改变量值，再次打印
++'''
++
++a = 'hello_world'
++print(a)
++
++a = 'hello_world, yuangu!'
++print(a)
+Index: CodeDemo/Together  Navigating/第2章/message1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- CodeDemo/Together  Navigating/第2章/message1.py	(date 1584432518055)
++++ CodeDemo/Together  Navigating/第2章/message1.py	(date 1584432518055)
+@@ -0,0 +1,10 @@
++#!/usr/bin/env python
++# -*- coding: utf-8 -*-
++# @Time : 2020/3/17 16:03
++'''
++2-1需求：将一条信息储存到变量中，将其打印
++
++'''
++
++A = "hello_world"
++print(A)
+\ No newline at end of file
+Index: CodeDemo/Together  Navigating/第2章/__init__.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- CodeDemo/Together  Navigating/第2章/__init__.py	(date 1584432125900)
++++ CodeDemo/Together  Navigating/第2章/__init__.py	(date 1584432125900)
+@@ -0,0 +1,4 @@
++#!/usr/bin/env python
++# -*- coding: utf-8 -*-
++# @Time : 2020/3/17 16:02
++
+Index: CodeDemo/Together  Navigating/第1章/hello_world报错.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- CodeDemo/Together  Navigating/第1章/hello_world报错.py	(date 1584432076971)
++++ CodeDemo/Together  Navigating/第1章/hello_world报错.py	(date 1584432076971)
+@@ -0,0 +1,5 @@
++#!/usr/bin/env python
++# -*- coding: utf-8 -*-
++# @Time : 2020/3/17 16:00
++
++print("hello_world")
+\ No newline at end of file
+Index: CodeDemo/Together  Navigating/第1章/__init__.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- CodeDemo/Together  Navigating/第1章/__init__.py	(date 1584431846530)
++++ CodeDemo/Together  Navigating/第1章/__init__.py	(date 1584431846530)
+@@ -0,0 +1,0 @@
+Index: CodeDemo/Together  Navigating/__init__.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- CodeDemo/Together  Navigating/__init__.py	(date 1584431579022)
++++ CodeDemo/Together  Navigating/__init__.py	(date 1584431579022)
+@@ -0,0 +1,0 @@
