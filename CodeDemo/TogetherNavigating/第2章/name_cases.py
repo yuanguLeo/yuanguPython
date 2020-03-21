@@ -58,3 +58,10 @@ print(16/2)
 a = 3
 print("我喜欢的号码是："+str(a))
 
+#2-10需求：加注释
+
+'''
+2-11需求：Python之禅
+'''
+import this
+
