@@ -43,4 +43,18 @@ print(name.lstrip())  #去除后空格
 print(name.rstrip())  #去除前空格
 print(name.strip())   #去除前后空格
 
+'''
+2-8需求：分别用加减乘除运算，每行结果都等于8
+'''
+print(3+5)
+print(10-2)
+print(2*4)
+print(16/2)
+
+
+'''
+2-9需求：将数字存储到变量中，再使用变量创建一条消息
+'''
+a = 3
+print("我喜欢的号码是："+str(a))
 
