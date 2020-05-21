@@ -73,4 +73,66 @@ print(lists)
 '''
 list = [list ** 3 for list in range(1,11)]
 print(list,end='\t')
+print()
+
+'''
+需求4-10：使用切片打印列表的前三个元素
+'''
+print("The first three items in the list are: ")
+print(list[:3])
+
+print("The items from the middle of the list are: ")
+print(list[3:7])
+
+print("The last from items in the list are:")
+print(list[-3:])
+
+'''
+需求4-11：创建副本，将其存到变量friend_pizza中
+'''
+my_pizzas = ["芝士披萨","榴莲披萨","超级至尊披萨"]
+friend_pizza = my_pizzas[:]
+
+my_pizzas.append("水果披萨")
+print("My favorite pizzas are: ")
+for My_pizza_name in my_pizzas:
+    print(My_pizza_name)
+friend_pizza.append("什锦披萨")
+print("My friend`s favorite pizzas are: ")
+for friend_pizza_name in friend_pizza:
+    print(friend_pizza_name)
+
+
+'''
+需求4-13：使用foods列表，用for循环打印元素名称
+'''
+my_foods = ['pizza','falafel','carrot','carrot cake']
+friend_foods = my_foods[:]
+
+my_foods.append('cannoli')
+print("My faovrite foods are: ")
+for my_food in my_foods:
+    print(my_food)
+print()
+
+friend_foods.append('ice cream')
+print("My friend`s favoite foods are: ")
+for friend_food in friend_foods:
+    print(friend_food)
+print()
+
+'''
+需求4-13：创建元组，其中又5种元素
+'''
+ingredients = ('牛肚','羊肉卷','肥牛卷','午餐肉','油麦菜')
+for ingredient in ingredients:
+    print(ingredient)
+print()
+#ingredients[0] = '白菜'  #TypeError: 'tuple' object does not support item assignment
+#print(ingredients)
+
+ingredients = ('圆生菜','羊肉卷','肥牛卷','午餐肉','大白菜')
+for ingredient in ingredients:
+    print(ingredient)
+print()
 
