@@ -109,7 +109,7 @@ for new_user in new_users:
 '''
 需求5-11：序数表示位置，如1st和2nd,大多数序数都以th结尾，除1，2，3之外
 '''
-digital_lists = [0,1,2,3,4,5,6,7,8,9,10,11]
+digital_lists = [0,1,2,3,4,5,6,7,8,9,10]
 if digital_lists:
     for digital_list in digital_lists:
         if digital_list == 1:
