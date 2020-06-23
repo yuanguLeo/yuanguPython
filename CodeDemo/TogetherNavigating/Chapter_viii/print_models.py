@@ -4,8 +4,8 @@
 #printing_functions.show_completd_models
 
 #from printing_functions import show_completd_models
-#from CodeDemo.TogetherNavigating.第8章.printing_functions import *
-from CodeDemo.TogetherNavigating.第8章.printing_functions import show_completd_models as pf
+#from CodeDemo.TogetherNavigating.Chapter_viii.printing_functions import *
+from CodeDemo.TogetherNavigating.Chapter_viii.printing_functions import show_completd_models as pf
 #import printing_functions
 #import  printing_functions as pf
 
