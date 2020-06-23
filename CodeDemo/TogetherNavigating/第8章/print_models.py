@@ -4,8 +4,8 @@
 #printing_functions.show_completd_models
 
 #from printing_functions import show_completd_models
-
-
+#from CodeDemo.TogetherNavigating.第8章.printing_functions import *
+from CodeDemo.TogetherNavigating.第8章.printing_functions import show_completd_models as pf
 #import printing_functions
 #import  printing_functions as pf
 
@@ -16,8 +16,8 @@
 '''
 unpring_desings = ['iphone case','robot pendant','dodecahedron']
 #printing_functions.show_completd_models(unpring_desings)
-#pf.show_completd_models(unpring_desings)
-
+#show_completd_models(unpring_desings)
+pf(unpring_desings)
 
 
 
