@@ -68,3 +68,59 @@ my_user.greet_user()
 '''
 需求9-4：在9-1中添加一个名为：number_served的属性，将其默认值等于0.
 '''
+class Restaurant():
+    """创建餐馆类"""
+    def __init__(self,restaurant_name,cuisine_type):
+        """类中的构造方法"""
+        self.restaurant_name = restaurant_name
+        self.cuisine_type = cuisine_type
+        #设置就餐人数默认值为：0
+        self.number_server = 0
+
+    def set_number_severd(self):
+        """打印就餐人数"""
+        print('目前就餐人数为：' + str(self.number_server))
+
+    def increment_number_severd(self,number):
+        """将就餐人数递增"""
+        self.number_server += number
+        print('目前就餐人数为：' + str(self.number_server))
+
+my_restaurant_04 = Restaurant('拿渡麻辣香锅','自制冷库')
+#修改就餐人数为：6
+my_restaurant_04.number_server = 6
+my_restaurant_04.set_number_severd()
+#递增就餐人员2人
+my_restaurant_04.increment_number_severd(2)
+
+'''
+需求9-5：
+'''
+class User():
+    """创建一个用户类"""
+
+    def __init__(self,first_name,last_name,age,city,login_attempts):
+        """初始化用户属性"""
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
+        self.city = city
+        self.login_attempts = login_attempts
+
+    def increment_login_attempts(self,attempts):
+        """将login_attempts值+1"""
+        self.login_attempts += attempts
+        print('\nlogin_attempts值为：'+str(self.login_attempts))
+
+    def reset_login_attemps(self):
+        """将login_attempts重置为：0"""
+        self.login_attempts = 0
+        print("\nlogin_attempts值重置为："+str(self.login_attempts) )
+
+my_user = User('张','三','30','北京',0)
+my_user.increment_login_attempts(1)
+my_user.increment_login_attempts(1)
+my_user.increment_login_attempts(1)
+my_user.increment_login_attempts(1)
+my_user.reset_login_attemps()
+
