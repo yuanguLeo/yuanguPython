@@ -124,3 +124,53 @@ my_user.increment_login_attempts(1)
 my_user.increment_login_attempts(1)
 my_user.reset_login_attemps()
 
+'''
+9-6需求：继承Restaurant类，编写一个IceCreamStand()的类，添加一个名为flavors的属性，
+储存一个由各种口味的冰激凌组成的列表，创建一个IceCreamStand实列，并调用
+'''
+
+class IceCreamStand(Restaurant):
+
+    def __init__(self,restaurant_name,cuisine_type):
+        '''继承Restaurant的构造方法，使用super()'''
+        super().__init__(restaurant_name,cuisine_type)
+        self.flavors = ['vanilla','chocolate','durian']
+
+    def print_flavors(self):
+        '''打印self.flavors列表种的值'''
+        print('\n')
+        for flavor in self.flavors:
+            print(flavor)
+
+#创建IceCreamStand实例
+my_restaurant_05 =  IceCreamStand('麦当劳甜品站','冰激凌')
+#调用方法
+my_restaurant_05.print_flavors()
+
+'''
+需求9-7：继承User,创建Admin的类，添加一个privileges的属性，存储如：
+('can add post','can delete post','can ban user')等组成的列表
+编写一个show_privileges()的方法，显示管理权限，创建Admin实例，并调用
+'''
+class Admin(User):
+
+    def __init__(self,first_name,last_name,age,city):
+        super().__init__(self,first_name,last_name,age,city)
+        #self.privileges = ['can add post','can delete post','can ban user']
+        self.privileges = '所有权限'
+
+    def show_privileges(self):
+        print('\n管理员的权限为：'+self.privileges)
+
+my_user_01 = Admin('张','三','30','北京')
+my_user_01.show_privileges()
+
+'''
+需求9-8：
+'''
+
+
+
+
+
+
