@@ -167,7 +167,8 @@ my_user_01.show_privileges()
 
 '''
 需求9-8：编写一个privileges的类，只有一个属性privileges,其中存储9-7所说的字符串，
-将show_privileges移到这个类中，
+将show_privileges移到这个类中，在Admin类中，将一个privileges的实例作为属性，创建一个Admin
+实例，并使用show_privileges()来显示权限
 '''
 
 
