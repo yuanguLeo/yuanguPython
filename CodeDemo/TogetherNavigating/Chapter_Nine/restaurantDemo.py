@@ -160,16 +160,36 @@ class Admin(User):
         self.privileges = '所有权限'
 
     def show_privileges(self):
-        print('\n管理员的权限为：'+self.privileges)
+        print('\n需求9-7管理员的权限为：'+self.privileges)
 
 my_user_01 = Admin('张','三','30','北京')
 my_user_01.show_privileges()
 
 '''
 需求9-8：编写一个privileges的类，只有一个属性privileges,其中存储9-7所说的字符串，
-将show_privileges移到这个类中，在Admin类中，将一个privileges的实例作为属性，创建一个Admin
-实例，并使用show_privileges()来显示权限
+将show_privileges移到这个类中，在Admin类中，将一个privileges的实例作为属性，
+创建一个Admin实例，并使用show_privileges()来显示权限
 '''
+class Admin(User):
+
+    def __init__(self,first_name,last_name,age,city):
+        super().__init__(self,first_name,last_name,age,city)
+        #self.privileges = '所有权限'
+
+    def show_privileges(self):
+        Privileges()
+
+class Privileges():
+        privileges = ['can add post','can delete post','can ban user']
+        for privilege in privileges:
+            print('\n需求9-8'+privilege)
+
+my_user_02 = Admin('张','三','30','北京')
+my_user_02.show_privileges()
+
+
+
+
 
 
 
