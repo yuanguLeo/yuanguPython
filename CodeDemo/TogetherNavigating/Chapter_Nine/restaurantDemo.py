@@ -160,7 +160,7 @@ class Admin(User):
         self.privileges = '所有权限'
 
     def show_privileges(self):
-        print('\n需求9-7管理员的权限为：'+self.privileges)
+        print('\n需求9-7：\n管理员的权限为：'+self.privileges)
 
 my_user_01 = Admin('张','三','30','北京')
 my_user_01.show_privileges()
@@ -182,10 +182,48 @@ class Admin(User):
 class Privileges():
         privileges = ['can add post','can delete post','can ban user']
         for privilege in privileges:
-            print('\n需求9-8'+privilege)
+            print('\n需求9-8：'+privilege)
 
 my_user_02 = Admin('张','三','30','北京')
 my_user_02.show_privileges()
+
+'''
+需求9-9：
+'''
+class Car():
+
+    def __init__(self,make,model,year):
+        '''Car类初始化属性'''
+        self.make = make
+        self.model = model
+        self.year = year
+
+    def get_descriptive_name(self):
+        long_name = str(self.year) + '' + self.make + ''+self.model
+        return long_name.title()
+
+class ElectricCar(Car):
+
+    def __init__(self,make,model,year):
+        super().__init__(make,model,year)
+        self.battery_size = 70
+
+    def get_range(self):
+        if self.battery_size == 70:
+            range = 240
+        elif self.battery_size == 85:
+            range = 270
+        message = '\n需求9-9：This car can go approximately ' + str(range)
+        message += ' miles on a full chage.'
+        print(message)
+
+    def upgrade_battery(self):
+        if self.battery_size != 85:
+            self.battery_size = 85
+
+my_car = ElectricCar('tesla','model',2018)
+my_car.upgrade_battery()
+my_car.get_range()
 
 
 
