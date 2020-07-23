@@ -226,11 +226,3 @@ my_car.upgrade_battery()
 my_car.get_range()
 
 
-
-
-
-
-
-
-
-
