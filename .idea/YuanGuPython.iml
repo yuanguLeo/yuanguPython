@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/eleven" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/alien_invasion" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
