@@ -27,7 +27,7 @@
 #     var = 5
 #
 #     def inside():
-#         var = 3   
+#         var = 3
 #         print(var)
 #
 #     inside()
