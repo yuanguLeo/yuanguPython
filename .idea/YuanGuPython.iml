@@ -5,6 +5,69 @@
       <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/eleven" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/alien_invasion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/twelve" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/.idea" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.idea" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/mysqlContrast" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第一课 我和Python的第一次亲密接触" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第七和第八课 了不起的分支和循环2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第三课 插曲之变量和字符串" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第九课 了不起的分支和循环3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第二十课 函数：内嵌函数和闭包" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第二课 用Python设计第一个游戏" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第五课 闲聊之Python的数据类型" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第六课 Pyhon之常用操作符" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十一课 列表：一个打了激素的数组2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十七课 函数 - Python的乐高积木" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十三课 戴上了枷锁的列表" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十九课 我的地盘听我的" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十二课 列表：一个打了激素的数组3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十五课 字符串：格式化" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十八课 灵活即强大" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十六课 序列！序列！" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十四课 各种奇葩的内置方法" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十课 列表：一个打了激素的数组" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第四课 改进我们的小游戏" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/eight" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/five" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/nine" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/fourth" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/one" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/practice" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/seven" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/six" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/ten" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/three" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/two" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.idea/codeStyles" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.idea/dictionaries" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.idea/inspectionProfiles" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/二期/文件操作/os模块" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/二期/文件操作" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/二期/异常" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/二期" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期/面向对象/设计模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期/面向对象/装饰器" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期/面向对象/继承" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期/面向对象" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期/理论" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期/控制语句/if条件表达式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期/控制语句" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期/循环结构" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期/序列" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期/序列/list列表" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期/序列/tuple元组" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期/序列/字典" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期/序列/集合" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期/函数" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期/其他" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期/Turtle海龟画图" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期/practice" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
