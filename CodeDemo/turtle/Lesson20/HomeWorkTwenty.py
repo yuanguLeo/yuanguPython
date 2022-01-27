@@ -8,9 +8,32 @@
 
 # 测试题：
 # 0.如果希望在函数中修改全局变量的值，应该使用什么关键字？
+# count = 10
+# def myFun():
+#     '''global关键字:修改全局变量为局部变量'''
+#     global count
+#     count = 10
+#     print(count)
+# myFun()
+
 
 # 1.在嵌套的函数中，如果希望在内部函数修改外部函数的局部变量，应该使用什么关键字？
-
+# def fun1():
+#     '''nonlocal函数的作用'''
+#     # x = [5]
+#     # def fun2():
+#     #     '''python2写法，借用容器储存'''
+#     #     x[0] *= x[0]
+#     #     print(x)
+#     # fun2()
+#     x = 5
+#     def fun2():
+#         '''nonlocal函数的使用'''
+#         nonlocal x
+#         x *= x
+#         print(x)
+#     fun2()
+# fun1()
 
 # 2. Python 的函数可以嵌套，但要注意访问的作用域问题哦，请问以下代码存在什么问题呢？
 
@@ -21,6 +44,7 @@
 #         print('I am inside!')
 #
 # inside()
+#inside属于闭包，不用在外层调用
 
 # 请问为什么代码A没有报错，但代码B却报错了？应该如何修改？
 # def outside():
@@ -45,25 +69,28 @@
 #
 #     inside()
 # outside()
+# A使用的是自己定义的var，而B在print之前没有定义自己的var，并且无法使用外层函数的变量
 
 # 4.请问如何访问funIn()呢？
 
 # def funOut():
 #     def funIn():
 #         print('宾果！你成功访问到我啦！')
-#
 #     return funIn()
-
-# 3请问如何访问funIn()呢？
-
+# funOut()
+#
+# print('------------')
+#
+# # 3请问如何访问funIn()呢？
+#
 # def funOut():
 #     def funIn():
 #         print('宾果！你成功访问到我啦！')
-#
 #     return funIn
+#
+# funOut()()
 
-# 6.以下是“闭包”的一个例子，请你目测下会打印什么内容？Zm)pT]O
-
+# 6.以下是“闭包”的一个例子，请你目测下会打印什么内容？
 
 # def funX():
 #     x = 5
@@ -80,6 +107,10 @@
 # print(a())
 # print(a())
 # print(a())
+
+# 6
+# 7
+# 8
 
 # 动动手：
 # 0.请用已学过的知识编写程序，统计下边这个长字符串中各个字符出现的次数并找到小甲鱼送给大家的一句话。载后拷贝过去即可）

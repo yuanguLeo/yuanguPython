@@ -12,25 +12,25 @@
       <sourceFolder url="file://$MODULE_DIR$/CodeDemo/mysqlContrast" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第一课 我和Python的第一次亲密接触" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第七和第八课 了不起的分支和循环2" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第三课 插曲之变量和字符串" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第九课 了不起的分支和循环3" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第二十课 函数：内嵌函数和闭包" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第二课 用Python设计第一个游戏" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第五课 闲聊之Python的数据类型" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第六课 Pyhon之常用操作符" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十一课 列表：一个打了激素的数组2" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十七课 函数 - Python的乐高积木" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十三课 戴上了枷锁的列表" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十九课 我的地盘听我的" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十二课 列表：一个打了激素的数组3" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十五课 字符串：格式化" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十八课 灵活即强大" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十六课 序列！序列！" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十四课 各种奇葩的内置方法" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第十课 列表：一个打了激素的数组" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/第四课 改进我们的小游戏" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson7AndLesson8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson9" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson20" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson11" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson17" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson13" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson19" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson12" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson15" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson18" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson16" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson14" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson4" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/eight" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/five" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/nine" isTestSource="false" />
