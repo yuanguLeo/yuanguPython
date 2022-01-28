@@ -42,19 +42,22 @@
 
 
 # 5. 还记得zip吗？使用zip会将两数以元祖的形式绑定在一块，例如：
-# list(zip([1, 3, 5, 7, 9], [2, 4, 6, 8, 10]))
-# [(1, 2), (3, 4), (5, 6), (7, 8), (9, 10)]
+lists=list(zip([1, 3, 5, 7, 9], [2, 4, 6, 8, 10]))
 
+# [(1, 2), (3, 4), (5, 6), (7, 8), (9, 10)]
 # 但如果我希望打包的形式是灵活多变的列表而不是元祖（希望是[[1, 2], [3, 4], [5, 6], [7, 8], [9, 10]]这种形式），
 # 你能做到吗？（采用map和lambda表达式）
 
 
 # 6. 请目测以下表达式会打印什么？
-def make_repeat(n):
-        return lambda s : s * n
-
-double = make_repeat(2)
-print(double(8))
-print(double('FishC'))
+# def make_repeat(n):
+#         return lambda s : s * n
+#         # def num(s):
+#         #         return s * n
+#         # return num
+#
+# double = make_repeat(2)
+# print(double(8))
+# print(double('FishC'))
 
 
