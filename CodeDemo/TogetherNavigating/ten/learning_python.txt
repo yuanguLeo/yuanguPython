@@ -1,0 +1,4 @@
+Python学习笔记：
+1、In Python you can : list
+2、In Python you can : dict
+3、In Python you can : str
