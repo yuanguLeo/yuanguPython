@@ -11,26 +11,6 @@
       <sourceFolder url="file://$MODULE_DIR$/.idea" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CodeDemo/mysqlContrast" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson1" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson7AndLesson8" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson3" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson9" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson20" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson2" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson5" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson6" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson11" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson17" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson13" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson19" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson12" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson15" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson18" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson16" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson14" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson10" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CodeDemo/turtle/Lesson4" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/eight" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/five" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CodeDemo/TogetherNavigating/nine" isTestSource="false" />
@@ -68,8 +48,9 @@
       <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期/practice" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CodeDemo/shangxuetang/一期" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
