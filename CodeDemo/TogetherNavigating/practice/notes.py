@@ -123,7 +123,7 @@ greet_users(usernames)
 
 
 # # 首先创建一个列表，其中包含一些要打印的设计
-# old_names = ['iphone case','robot pendant','dodecahedron']
+# old_names = ['iphone,'robot pendant','dodecahedron']
 # new_names = []
 
 # # 模拟打印每个设计，直到没有未打印的设计为止
@@ -153,14 +153,12 @@ def show_names(new_names):
 	for new_name in new_names:
 		print(new_name)
 
-old_names = ['iphone case','robot pendant','dodecahedron']
+old_names = ['iphone','robot pendant','dodecahedron']
 new_names = []
 
 print_models(old_names[:],new_names)
 show_names(new_names)
 print(old_names)
-
-
 
 def show_magicians(magicians):
 	for magician in magicians:
