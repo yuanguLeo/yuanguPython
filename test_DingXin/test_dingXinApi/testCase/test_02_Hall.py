@@ -9,8 +9,6 @@
 import requests
 from test_DingXin.test_dingXinApi.config.config import *
 
-
-
 class Test_Hall:
     hall_id = []
 
@@ -22,7 +20,7 @@ class Test_Hall:
         影厅列表
         /?m=api&a=hall
         '''
-        url = http_ip + '/?m=api&a=hall'
+        url = httpIp + '/?m=api&a=hall'
         hall = requests.get(url, auth=(name, password))
         print(hall.url)
         print(hall.text)
@@ -34,7 +32,7 @@ class Test_Hall:
         影厅列表(更新时间)hallincrement
         /?m=api&a=hallincrement
         '''
-        url = http_ip + '/?m=api&a=hall'
+        url = httpIp + '/?m=api&a=hall'
         data = {
             'update_time' == '2010-01-01'
         }
