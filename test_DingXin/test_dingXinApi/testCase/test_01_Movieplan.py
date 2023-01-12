@@ -10,21 +10,25 @@ import requests
 from test_DingXin.test_dingXinApi.config.config import *
 
 class Test_getcinemainfo:
-    def test_CineMainfo(self):
+    # def __init__(self):
+    #     pass
+
+    def test_01_CineMainfo(self):
         '''
         影院名称、影院编码
         /?m=api&a=getcinemainfo
         '''
-        url = 'http://'+ ip +'/?m=api&a=getcinemainfo'
+        url = http_ip +'/?m=api&a=getcinemainfo'
         cinemainfo = requests.get(url,auth=(name, password))
+        print(cinemainfo.url)
         print(cinemainfo.text)
         assert cinemainfo.status_code == 200 #断言状态码是否等于200
+#        hall_id =
         print("===========================================")
-#
-#test_CineMainfo()
-#
+
 # if __name__ == '__main__':
-#     self.test_CineMainfo()
+#     info = Test_getcinemainfo()
+#     info.test_01_CineMainfo()
 
 
 

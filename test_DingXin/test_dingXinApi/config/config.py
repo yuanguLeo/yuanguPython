@@ -7,6 +7,7 @@
 '''
 
 ip = '172.16.3.111'
+http_ip = 'http://'+ ip
 name = 'inner'
 password = 'SnAw19sKd34n'
 
