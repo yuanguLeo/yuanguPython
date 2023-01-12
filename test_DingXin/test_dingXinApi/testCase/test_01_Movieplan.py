@@ -23,7 +23,7 @@ class Test_getcinemainfo:
         print(cinemainfo.url)
         print(cinemainfo.text)
         assert cinemainfo.status_code == 200 #断言状态码是否等于200
-#        hall_id =
+        # hall_id =
         print("===========================================")
 
 # if __name__ == '__main__':
